@@ -1,3 +1,11 @@
+
+
+# Feature: authentication — JWT handler implemented
+# Branch: feature/authentication
+
+
+
+
 import jwt
 from datetime import datetime, timedelta, timezone
 from typing import Optional
