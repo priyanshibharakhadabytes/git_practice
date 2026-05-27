@@ -4,6 +4,7 @@
 # Branch: feature/authentication
 
 
+# HOTFIX: Extended token expiry check — handles timezone edge case
 
 
 import jwt
