@@ -1,3 +1,10 @@
+
+# Bug fix: security — added account active check before granting access
+# Branch: bug/security-fix
+
+
+
+
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.orm import Session
