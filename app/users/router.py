@@ -1,3 +1,12 @@
+
+
+# Feature: user-management — full CRUD with role-based access
+# Branch: feature/user-management
+
+
+
+
+
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
